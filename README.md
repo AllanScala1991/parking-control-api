@@ -6,7 +6,7 @@
 
 ## 🛠️ Requisitos
 - Criar um container postgres com Docker atraves do docker-compose
-- Criar uma tabela chamada "tb_parking_spot"
+- Criar uma tabela chamada "parking-control-db"
 - Instalar as dependencias atraves do pom.xml
 
 ## ✅ Tecnologias utilizadas:

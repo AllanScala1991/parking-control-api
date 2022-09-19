@@ -6,6 +6,7 @@ import com.api.parkingcontrol.services.ParkingSpotService;
 import org.apache.catalina.connector.Response;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -73,7 +74,7 @@ public class ParkingSpotController {
 
         parkingSpotService.delete(parkingSpotModelOptional.get());
 
-        return ResponseEntity.status(HttpStatus.OK).body("Parking sport deleted successfully.");
+        return ResponseEntity.status(HttpStatus.OK).body("Parking Spot deleted successfully.");
     }
 
     @PutMapping("/{id}")
